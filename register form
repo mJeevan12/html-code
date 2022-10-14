@@ -1,0 +1,22 @@
+<head><h1>registration form</h1>
+</head>
+<body bgcolor="blue">
+<form>
+<br><b>name</b>
+<input type="character" name="enter name"/>
+<br><b>mail</b>
+<input type="character" name="mail"/>
+<br><b>password</b>
+<input type="character" name="password"/>
+<br><b>new password</b>
+<input type="character" value="enter 8 digit passsword"/>
+<br><label for="gender"<br><b>gender</b></label>
+<select id="gender">  
+<optgroup label="gender">
+    <option value="female">Female</option>
+<option value="male">Male</option>
+  </optgroup><br><br><br>
+<input type="submit" name="submit"value="REGISTER"/>
+</form>
+</body>
+</html>
